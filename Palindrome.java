@@ -13,7 +13,7 @@ public class Palindrome {
 		rev = rev + array[i]; //Add the char into rev
 	}
 	if(text.equals(rev)==true) { //Compare the original String with the reversed String, if it is same then print palinDrome 
-		System.out.println(text);
+		System.out.println("Palindrome is: " +text);
 	}
 }
 }
