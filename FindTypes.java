@@ -21,13 +21,13 @@ public class FindTypes {
 		*/
 		char[] array = test.toCharArray();
 		for(int i=0;i<array.length;i++) {
-			if(Character.isLetter(array[i])==true) {
+			if(Character.isLetter(array[i])) {
 				letter++;
 			}
-			else if(Character.isDigit(array[i])==true) {
+			else if(Character.isDigit(array[i])) {
 				num++;
 			}
-			else if(Character.isSpaceChar(array[i])==true) {
+			else if(Character.isSpaceChar(array[i])) {
 				space++;
 			}
 			else{
